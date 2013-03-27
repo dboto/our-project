@@ -1,0 +1,48 @@
+!!! 5
+html
+    head
+        title= title
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet', href='/stylesheets/css/bootstrap.css')
+        link(rel='stylesheet', href='/stylesheets/css/bootstrap-responsive.css')
+        link(rel='stylesheet', href='/stylesheets/leaflet.css')
+        link(rel='stylesheet', href='/stylesheets/stilearn/css/stilearn.css')
+        link(rel='stylesheet', href='/stylesheets/stilearn/css/stilearn-helper.css')
+        link(rel='stylesheet', href='/stylesheets/stilearn/css/stilearn-icon.css')
+        link(rel='stylesheet', href='/stylesheets/stilearn/css/font-awesome.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+
+        script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+        script(src='/javascripts/leaflet.js')
+
+
+    body
+        div.header
+
+        section.section
+            div.row-fluid
+                map_menu.span0
+                filters.span1
+                    aside.side-left
+                        ul.sidebar
+                            li.active.first
+                                a(href='#', title='dashboard')
+                                    .helper-font-24
+                                        i.icofont-sitemap
+                                    a#trig.btn.btn-mini.btn-inverse Dashboard
+                map_container.span11
+                    #map(style='height: 450px')
+
+
+        div.footer
+            //p &copy; nodeblox 2011
+
+        script(src='/javascripts/jquery-1.7.2.min.js')
+        script(src='/javascripts/ui.js')
+        script(src='/javascripts/map_properties.js')
+        script(src='/stylesheets/js/bootstrap.min.js')
+        //script(src='/javascripts/GeoJSON_ajax.js')
+
+
+
+

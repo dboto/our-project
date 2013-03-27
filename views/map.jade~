@@ -1,0 +1,23 @@
+!!! 5
+html
+    head
+        title= title
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet', href='/stylesheets/css/bootstrap.css')
+        link(rel='stylesheet', href='/stylesheets/css/bootstrap-responsive.css')
+        link(rel='stylesheet', href='/stylesheets/leaflet.css')
+
+        script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+        script(src='/javascripts/leaflet.js')
+
+
+    body
+       #map(style='height: 100% important!; bottom:0px; top:0px;left:0px; right:0px; position: fixed;')
+
+        script(src='/javascripts/jquery-1.7.2.min.js')
+        script(src='/javascripts/map_properties.js')
+        //script(src='/javascripts/GeoJSON_ajax.js')
+
+
+
+

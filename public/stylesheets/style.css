@@ -1,0 +1,19 @@
+.row-fluid div {
+    height: 200px;
+    -webkit-transition: width 0.3s ease, margin 0.3s ease;
+    -moz-transition: width 0.3s ease, margin 0.3s ease;
+    -o-transition: width 0.3s ease, margin 0.3s ease;
+    transition: width 0.3s ease, margin 0.3s ease;
+}
+
+.row-fluid .map_menu {
+    width: 0%;
+}
+
+#trig {
+    margin: 50px;
+}
+
+.row-fluid .map_menu + [class*="span"]{
+    margin-left: 0;
+}
